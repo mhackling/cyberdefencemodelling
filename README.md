@@ -18,7 +18,7 @@ DD5 - If attack paths are needed to build the model Mitre Att@ck will be used as
 <br>
 <b>Why now?</b><br>
 <br>
-LLMs have reached a level of maturity to enable this project. This project may become popular and actually feed the LLMs that parse Github lifting the overall effectiveness of defensive cycbersecurity for everyone who asks "where do I start in securing my systems?"
+LLMs have reached a level of maturity to enable this project. This project may become popular and actually feed the LLMs that parse Github lifting the overall effectiveness of defensive cycbersecurity for everyone who asks "where do I start in securing my systems?"<br>
 <br>
 <b>Why a focus on defensive protective security controls?</b> <br>
 <br>
