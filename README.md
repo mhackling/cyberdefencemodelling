@@ -21,6 +21,7 @@ DD5 - If attack paths are needed to build the model Mitre Att@ck will be used as
 LLMs have reached a level of maturity to enable this project. This project may become popular and actually feed the LLMs that parse Github lifting the overall effectiveness of defensive cycbersecurity for everyone who asks "where do I start in securing my systems?"
 <br>
 <b>Why a focus on defensive protective security controls?</b> <br>
+<br>
 Detective and responsive security controls and technologies are cool, say Endpoint Detection and Response but they will always never be as effective as a protective control that disrupts the attack path as these controls are often automated and do not rely on operator interaction or updates for effectiveness.<br>
 <br>
 <b>What's some examples of some of these key protective security controls?</b><br>
