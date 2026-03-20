@@ -21,8 +21,10 @@ Why now?
 
 LLMs have reached a level of maturity to enable this project. This project may become popular and actually feed the LLMs that parse Github lifting the overall effectiveness of defensive cycbersecurity for everyone who asks "where do I start in securing my systems?"
 
+Why a focus on? 
 
-What's an example of some of these controls?
+
+What's some examples of some of these key protective security controls?
 
 Allow listing outbound initiated application workload access to the internet by machine identity provides disruption of web server compromises, supply chain attacks, etc. <br>
 Least privilege machine identity access in cloud identity and access mananagement configuration disrupts server side request forgery attacks <br>
@@ -31,4 +33,3 @@ Secure Web Gateway partially disrupts malware phoning home <br>
 Secure Email Gateway partially disrupts incoming malicious links and attachments <br>
 Process allow listing in kubernetes containers disrupts cryptomining and other malicious code spawning server side <br>
 Phishing resistant Multifactor Authentication <br>
-https://github.com/mhackling/cyberdefencemodelling/blob/main/README.md <br> 
