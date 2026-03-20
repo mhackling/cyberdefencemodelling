@@ -24,10 +24,11 @@ LLMs have reached a level of maturity to enable this project. This project may b
 
 What's an example of some of these controls?
 
-Allow listing outbound initiated application workload access to the internet by machine identity provides disruption of web server compromises, supply chain attacks, etc.
-Least privilege machine identity access in cloud identity and access mananagement configuration disrupts server side request forgery attacks
-Application control on end user devices disrupts malware installation
-Secure Web Gateway partially disrupts malware phoning home 
-Secure Email Gateway partially disrupts incoming malicious links and attachments
-Process allow listing in kubernetes containers disrupts cryptomining and other malicious code spawning server side
-Phishing resistant Multifactor Authentication
+Allow listing outbound initiated application workload access to the internet by machine identity provides disruption of web server compromises, supply chain attacks, etc. <br>
+Least privilege machine identity access in cloud identity and access mananagement configuration disrupts server side request forgery attacks <br>
+Application control on end user devices disrupts malware installation <br>
+Secure Web Gateway partially disrupts malware phoning home <br>
+Secure Email Gateway partially disrupts incoming malicious links and attachments <br>
+Process allow listing in kubernetes containers disrupts cryptomining and other malicious code spawning server side <br>
+Phishing resistant Multifactor Authentication <br>
+https://github.com/mhackling/cyberdefencemodelling/blob/main/README.md <br> 
