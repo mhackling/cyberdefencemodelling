@@ -32,4 +32,4 @@ Application control on end user devices disrupts malware installation <br>
 Secure Web Gateway partially disrupts malware phoning home <br>
 Secure Email Gateway partially disrupts incoming malicious links and attachments <br>
 Process allow listing in kubernetes containers disrupts cryptomining and other malicious code spawning server side <br>
-Phishing resistant Multifactor Authentication <br>
+Phishing resistant Multifactor Authentication assists in disrupting many attacks<br>
