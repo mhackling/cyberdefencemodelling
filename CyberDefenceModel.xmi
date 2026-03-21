@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:sysml="http://www.omg.org/spec/SysML/20161101/SysML" xmlns:uml="http://www.omg.org/spec/UML/20131001">
+  <uml:Model xmi:id="_8FyWsCTgEfGZu8X6Ayuzzw" name="Root">
+    <packagedElement xmi:type="uml:Package" xmi:id="_G47JICThEfGZu8X6Ayuzzw" name="Standards"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Bz_2sCThEfGZu8X6Ayuzzw" name="Controls">
+      <packagedElement xmi:type="uml:Class" xmi:id="_KGq3gCThEfGZu8X6Ayuzzw" name="InternetEgressFiltering">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="__x0HECThEfGZu8X6Ayuzzw" visibility="public" type="_p9h7YCThEfGZu8X6Ayuzzw" association="__xv1oCThEfGZu8X6Ayuzzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_PkOFUCThEfGZu8X6Ayuzzw" name="PhishingResistantMultiFactorAuthentication">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_IHgmsSTiEfGZu8X6Ayuzzw" visibility="public" type="_zHLngCThEfGZu8X6Ayuzzw" association="_IHeKmCTiEfGZu8X6Ayuzzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_EWSX0CTiEfGZu8X6Ayuzzw" name="ApplicationControl"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_fdGpkCThEfGZu8X6Ayuzzw" name="AttackPaths">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_j2xYgCThEfGZu8X6Ayuzzw" name="PhishingEmailwithLink"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_nR9F8CThEfGZu8X6Ayuzzw" name="PhishingEmailwithAttachment"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_VI3kMCTiEfGZu8X6Ayuzzw" name="SupplyChainAttackwithCompromisedDependency"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_xAb9cCThEfGZu8X6Ayuzzw" name="Services">
+      <packagedElement xmi:type="uml:Class" xmi:id="_p9h7YCThEfGZu8X6Ayuzzw" name="SecureWebGateway">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="__xxDwCThEfGZu8X6Ayuzzw" visibility="public" type="_KGq3gCThEfGZu8X6Ayuzzw" aggregation="composite" association="__xv1oCThEfGZu8X6Ayuzzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sHAJUCThEfGZu8X6Ayuzzw" name="SecureEmailGateway"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_zHLngCThEfGZu8X6Ayuzzw" name="IdentityProvider">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_IHfYkCTiEfGZu8X6Ayuzzw" visibility="public" type="_PkOFUCThEfGZu8X6Ayuzzw" aggregation="composite" association="_IHeKmCTiEfGZu8X6Ayuzzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="__xv1oCThEfGZu8X6Ayuzzw" memberEnd="__xxDwCThEfGZu8X6Ayuzzw __x0HECThEfGZu8X6Ayuzzw"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IHeKmCTiEfGZu8X6Ayuzzw" memberEnd="_IHfYkCTiEfGZu8X6Ayuzzw _IHgmsSTiEfGZu8X6Ayuzzw"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8Fy9wCTgEfGZu8X6Ayuzzw" applyingPackage="_8FyWsCTgEfGZu8X6Ayuzzw">
+      <appliedProfile xmi:type="uml:Profile" href="http://www.omg.org/spec/SysML/20161101/SysML.xmi#SysML"/>
+    </profileApplication>
+  </uml:Model>
+  <sysml:Block xmi:id="_KG0BcCThEfGZu8X6Ayuzzw" base_Class="_KGq3gCThEfGZu8X6Ayuzzw"/>
+  <sysml:Block xmi:id="_PkPTcCThEfGZu8X6Ayuzzw" base_Class="_PkOFUCThEfGZu8X6Ayuzzw"/>
+  <sysml:Block xmi:id="_EWU0ECTiEfGZu8X6Ayuzzw" base_Class="_EWSX0CTiEfGZu8X6Ayuzzw"/>
+  <sysml:Block xmi:id="_p9jJgCThEfGZu8X6Ayuzzw" base_Class="_p9h7YCThEfGZu8X6Ayuzzw"/>
+  <sysml:Block xmi:id="_sHAwYCThEfGZu8X6Ayuzzw" base_Class="_sHAJUCThEfGZu8X6Ayuzzw"/>
+  <sysml:Block xmi:id="_zHM1oCThEfGZu8X6Ayuzzw" base_Class="_zHLngCThEfGZu8X6Ayuzzw"/>
+</xmi:XMI>
