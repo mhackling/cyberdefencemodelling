@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:MD_Customization_for_SysML__additional_stereotypes="http://www.magicdraw.com/spec/Customization/180/SysML" xmlns:sysml="http://www.omg.org/spec/SysML/20150709/SysML" xmlns:uml="http://www.omg.org/spec/UML/20131001">
+  <xmi:Documentation xmi:id="_eL6dUCV3EfGgdPYlChKpxg" exporter="MagicDraw UML" exporterVersion="17.0"/>
+  <xmi:Extension xmi:id="_eL7EYCV3EfGgdPYlChKpxg" extender="MagicDraw UML 17.0" extenderID="MagicDraw UML 17.0"><mountTable>
+      <module resource="file:/./profiles/UML_Standard_Profile.mdzip" autoloadType="ALWAYS_LOAD" readOnly="true" requiredVersion="-1">
+        <mount mountPoint="magicdraw_uml_standard_profile_v_0001"/>
+      </module>
+      <module resource="file:/./profiles/SysML%20Profile.mdzip" autoloadType="ALWAYS_LOAD" readOnly="true" requiredVersion="-1">
+        <mount mountPoint="magicdraw_sysml%20profile_v_0001"/>
+      </module>
+      <module resource="file:/./profiles/MD_customization_for_SysML.mdzip" autoloadType="ALWAYS_LOAD" readOnly="true" requiredVersion="-1">
+        <mount mountPoint="magicdraw_md_customization_for_sysml_v_0001"/>
+      </module>
+    </mountTable></xmi:Extension>
+  <xmi:Extension xmi:id="_eMEOUCV3EfGgdPYlChKpxg" extender="MagicDraw UML 17.0" extenderID="MagicDraw UML 17.0"><mdOwnedDiagrams>
+      <mdElement elementClass="Diagram" xmi:id="_XBERYCThEfGZu8X6Ayuzzw" name="CyberDefenceModel" visibility="public" ownerOfDiagram="_8FyWsCTgEfGZu8X6Ayuzzw">
+        <mdElement elementClass="DiagramPresentationElement" xmi:id="_XBERYCThEfGZu8X6Ayuzzw-dpe">
+          <mdOwnedViews>
+            <mdElement elementClass="DiagramFrame" xmi:id="_XCWDwCThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOVCV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>10, 10, 1387, 896</geometry>
+              <elementID xmi:idref="_XBERYCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="Package" xmi:id="_ZVMQICThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOViV3EfGgdPYlChKpxg">
+                  <propertyID>FILL_COLOR</propertyID>
+                  <propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-52</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOVyV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>220, 67, 94, 68</geometry>
+              <elementID xmi:idref="_Bz_2sCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="Class" xmi:id="_aDp4oCThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOWSV3EfGgdPYlChKpxg">
+                  <propertyID>FILL_COLOR</propertyID>
+                  <propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-52</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOWiV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_CONSTRAINTS_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_CONSTRAINTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOWyV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_PARTS_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_PARTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOXCV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_REFERENCES_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_REFERENCES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOXSV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_VALUES_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_VALUES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOXiV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>53, 248, 176, 30</geometry>
+              <elementID xmi:idref="_KGq3gCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="ContainmentLink" xmi:id="_aD5wQCThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ChoiceProperty" xmi:id="_eMEOYCV3EfGgdPYlChKpxg">
+                  <choice>RECTILINEAR^OBLIQUE^BEZIER</choice>
+                  <propertyID>LINK_LINE_STYLE</propertyID>
+                  <propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+                  <value>RECTILINEAR</value>
+                </mdElement>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOYSV3EfGgdPYlChKpxg">
+                  <propertyID>PEN_COLOR</propertyID>
+                  <propertyDescriptionID>PEN_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-16777216</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOYiV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>267, 134; 267, 224; 141, 224; 141, 248</geometry>
+              <linkFirstEndID xmi:idref="_ZVMQICThEfGZu8X6Ayuzzw"/>
+              <linkSecondEndID xmi:idref="_aDp4oCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="Class" xmi:id="_ac2bwCThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOZCV3EfGgdPYlChKpxg">
+                  <propertyID>FILL_COLOR</propertyID>
+                  <propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-52</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOZSV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_CONSTRAINTS_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_CONSTRAINTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOZiV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_PARTS_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_PARTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOZyV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_REFERENCES_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_REFERENCES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOaCV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_VALUES_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_VALUES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOaSV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>279, 248, 308, 30</geometry>
+              <elementID xmi:idref="_PkOFUCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="ContainmentLink" xmi:id="_ac9wgCThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ChoiceProperty" xmi:id="_eMEOayV3EfGgdPYlChKpxg">
+                  <choice>RECTILINEAR^OBLIQUE^BEZIER</choice>
+                  <propertyID>LINK_LINE_STYLE</propertyID>
+                  <propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+                  <value>RECTILINEAR</value>
+                </mdElement>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEObCV3EfGgdPYlChKpxg">
+                  <propertyID>PEN_COLOR</propertyID>
+                  <propertyDescriptionID>PEN_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-16777216</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEObSV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>267, 134; 267, 191; 433, 191; 433, 248</geometry>
+              <linkFirstEndID xmi:idref="_ZVMQICThEfGZu8X6Ayuzzw"/>
+              <linkSecondEndID xmi:idref="_ac2bwCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="Package" xmi:id="_b-AsgCThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEObyV3EfGgdPYlChKpxg">
+                  <propertyID>FILL_COLOR</propertyID>
+                  <propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-52</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOcCV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>38, 548, 102, 68</geometry>
+              <elementID xmi:idref="_G47JICThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="Package" xmi:id="_iR9W0CThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOciV3EfGgdPYlChKpxg">
+                  <propertyID>FILL_COLOR</propertyID>
+                  <propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-52</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOcyV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>1013, 112, 114, 68</geometry>
+              <elementID xmi:idref="_fdGpkCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="UseCase" xmi:id="_l-0DECThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOdSV3EfGgdPYlChKpxg">
+                  <propertyID>FILL_COLOR</propertyID>
+                  <propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-52</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOdiV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>1031, 265, 140, 40</geometry>
+              <elementID xmi:idref="_j2xYgCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="ContainmentLink" xmi:id="_l_AQYCThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ChoiceProperty" xmi:id="_eMEOeCV3EfGgdPYlChKpxg">
+                  <choice>RECTILINEAR^OBLIQUE^BEZIER</choice>
+                  <propertyID>LINK_LINE_STYLE</propertyID>
+                  <propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+                  <value>RECTILINEAR</value>
+                </mdElement>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOeSV3EfGgdPYlChKpxg">
+                  <propertyID>PEN_COLOR</propertyID>
+                  <propertyDescriptionID>PEN_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-16777216</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOeiV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>1070, 179; 1070, 265</geometry>
+              <linkFirstEndID xmi:idref="_iR9W0CThEfGZu8X6Ayuzzw"/>
+              <linkSecondEndID xmi:idref="_l-0DECThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="Class" xmi:id="_vB1iwCThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOfCV3EfGgdPYlChKpxg">
+                  <propertyID>FILL_COLOR</propertyID>
+                  <propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-52</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOfSV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_CONSTRAINTS_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_CONSTRAINTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOfiV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_PARTS_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_PARTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOfyV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_REFERENCES_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_REFERENCES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOgCV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_VALUES_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_VALUES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOgSV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>596, 462, 160, 30</geometry>
+              <elementID xmi:idref="_sHAJUCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="Package" xmi:id="_9DnbcCThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOgyV3EfGgdPYlChKpxg">
+                  <propertyID>FILL_COLOR</propertyID>
+                  <propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-52</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOhCV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>516, 622, 93, 68</geometry>
+              <elementID xmi:idref="_xAb9cCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="ContainmentLink" xmi:id="_9DrF0CThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ChoiceProperty" xmi:id="_eMEOhiV3EfGgdPYlChKpxg">
+                  <choice>RECTILINEAR^OBLIQUE^BEZIER</choice>
+                  <propertyID>LINK_LINE_STYLE</propertyID>
+                  <propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+                  <value>RECTILINEAR</value>
+                </mdElement>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOhyV3EfGgdPYlChKpxg">
+                  <propertyID>PEN_COLOR</propertyID>
+                  <propertyDescriptionID>PEN_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-16777216</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOiCV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>563, 622; 563, 400; 676, 400; 676, 462</geometry>
+              <linkFirstEndID xmi:idref="_9DnbcCThEfGZu8X6Ayuzzw"/>
+              <linkSecondEndID xmi:idref="_vB1iwCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="Class" xmi:id="_-NRyMCThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOiiV3EfGgdPYlChKpxg">
+                  <propertyID>FILL_COLOR</propertyID>
+                  <propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-52</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOiyV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_CONSTRAINTS_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_CONSTRAINTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOjCV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_PARTS_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_PARTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOjSV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_REFERENCES_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_REFERENCES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOjiV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_VALUES_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_VALUES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOjyV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>596, 501, 152, 30</geometry>
+              <elementID xmi:idref="_p9h7YCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="ContainmentLink" xmi:id="_-NZuACThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ChoiceProperty" xmi:id="_eMEOkSV3EfGgdPYlChKpxg">
+                  <choice>RECTILINEAR^OBLIQUE^BEZIER</choice>
+                  <propertyID>LINK_LINE_STYLE</propertyID>
+                  <propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+                  <value>RECTILINEAR</value>
+                </mdElement>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOkiV3EfGgdPYlChKpxg">
+                  <propertyID>PEN_COLOR</propertyID>
+                  <propertyDescriptionID>PEN_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-16777216</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOkyV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>563, 656; 563, 516; 672, 516</geometry>
+              <linkFirstEndID xmi:idref="_9DnbcCThEfGZu8X6Ayuzzw"/>
+              <linkSecondEndID xmi:idref="_-NRyMCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="Association" xmi:id="__x1VMCThEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ChoiceProperty" xmi:id="_eMEOlSV3EfGgdPYlChKpxg">
+                  <choice>RECTILINEAR^OBLIQUE^BEZIER</choice>
+                  <propertyID>LINK_LINE_STYLE</propertyID>
+                  <propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+                  <value>RECTILINEAR</value>
+                </mdElement>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOliV3EfGgdPYlChKpxg">
+                  <propertyID>PEN_COLOR</propertyID>
+                  <propertyDescriptionID>PEN_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-16777216</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOlyV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <mdOwnedViews>
+                <mdElement elementClass="Role" xmi:id="__x18RSThEfGZu8X6Ayuzzw">
+                  <geometry>125, 297, 11, 14</geometry>
+                  <elementID xmi:idref="__xxDwCThEfGZu8X6Ayuzzw"/>
+                </mdElement>
+                <mdElement elementClass="Role" xmi:id="__x18RCThEfGZu8X6Ayuzzw">
+                  <geometry>563, 526, 11, 14</geometry>
+                  <elementID xmi:idref="__x0HECThEfGZu8X6Ayuzzw"/>
+                </mdElement>
+              </mdOwnedViews>
+              <geometry>672, 516; 149, 516; 149, 275</geometry>
+              <elementID xmi:idref="__xv1oCThEfGZu8X6Ayuzzw"/>
+              <nameVisible>true</nameVisible>
+              <linkFirstEndID xmi:idref="_aDp4oCThEfGZu8X6Ayuzzw"/>
+              <linkSecondEndID xmi:idref="_-NRyMCThEfGZu8X6Ayuzzw"/>
+              <associationFirstEndID xmi:idref="__x18RSThEfGZu8X6Ayuzzw"/>
+              <associationSecondEndID xmi:idref="__x18RCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="UseCase" xmi:id="_C69CQCTiEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOmiV3EfGgdPYlChKpxg">
+                  <propertyID>FILL_COLOR</propertyID>
+                  <propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-52</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOmyV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>1110, 343, 140, 40</geometry>
+              <elementID xmi:idref="_nR9F8CThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="ContainmentLink" xmi:id="_C7E-GCTiEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ChoiceProperty" xmi:id="_eMEOnSV3EfGgdPYlChKpxg">
+                  <choice>RECTILINEAR^OBLIQUE^BEZIER</choice>
+                  <propertyID>LINK_LINE_STYLE</propertyID>
+                  <propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+                  <value>RECTILINEAR</value>
+                </mdElement>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOniV3EfGgdPYlChKpxg">
+                  <propertyID>PEN_COLOR</propertyID>
+                  <propertyDescriptionID>PEN_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-16777216</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOnyV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>1070, 179; 1070, 485; 1180, 485; 1180, 382</geometry>
+              <linkFirstEndID xmi:idref="_iR9W0CThEfGZu8X6Ayuzzw"/>
+              <linkSecondEndID xmi:idref="_C69CQCTiEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="Class" xmi:id="_FfSAMCTiEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOoSV3EfGgdPYlChKpxg">
+                  <propertyID>FILL_COLOR</propertyID>
+                  <propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-52</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOoiV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_CONSTRAINTS_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_CONSTRAINTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOoyV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_PARTS_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_PARTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOpCV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_REFERENCES_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_REFERENCES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOpSV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_VALUES_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_VALUES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOpiV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>786, 488, 152, 30</geometry>
+              <elementID xmi:idref="_EWSX0CTiEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="ContainmentLink" xmi:id="_FfYt4CTiEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ChoiceProperty" xmi:id="_eMEOqCV3EfGgdPYlChKpxg">
+                  <choice>RECTILINEAR^OBLIQUE^BEZIER</choice>
+                  <propertyID>LINK_LINE_STYLE</propertyID>
+                  <propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+                  <value>RECTILINEAR</value>
+                </mdElement>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOqSV3EfGgdPYlChKpxg">
+                  <propertyID>PEN_COLOR</propertyID>
+                  <propertyDescriptionID>PEN_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-16777216</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOqiV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>267, 101; 862, 101; 862, 503</geometry>
+              <linkFirstEndID xmi:idref="_ZVMQICThEfGZu8X6Ayuzzw"/>
+              <linkSecondEndID xmi:idref="_FfSAMCTiEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="Class" xmi:id="_G2BwsCTiEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOrCV3EfGgdPYlChKpxg">
+                  <propertyID>FILL_COLOR</propertyID>
+                  <propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-52</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOrSV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_CONSTRAINTS_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_CONSTRAINTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOriV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_PARTS_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_PARTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOryV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_REFERENCES_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_REFERENCES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOsCV3EfGgdPYlChKpxg">
+                  <propertyID>SUPPRESS_VALUES_COMPARTMENT</propertyID>
+                  <propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+                  <propertyDescriptionID>SUPPRESS_VALUES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOsSV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>596, 423, 133, 30</geometry>
+              <elementID xmi:idref="_zHLngCThEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="ContainmentLink" xmi:id="_G2JsgCTiEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ChoiceProperty" xmi:id="_eMEOsyV3EfGgdPYlChKpxg">
+                  <choice>RECTILINEAR^OBLIQUE^BEZIER</choice>
+                  <propertyID>LINK_LINE_STYLE</propertyID>
+                  <propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+                  <value>RECTILINEAR</value>
+                </mdElement>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOtCV3EfGgdPYlChKpxg">
+                  <propertyID>PEN_COLOR</propertyID>
+                  <propertyDescriptionID>PEN_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-16777216</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOtSV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>517, 656; 517, 438; 728, 438</geometry>
+              <linkFirstEndID xmi:idref="_9DnbcCThEfGZu8X6Ayuzzw"/>
+              <linkSecondEndID xmi:idref="_G2BwsCTiEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="Association" xmi:id="_IHib4CTiEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ChoiceProperty" xmi:id="_eMEOtyV3EfGgdPYlChKpxg">
+                  <choice>RECTILINEAR^OBLIQUE^BEZIER</choice>
+                  <propertyID>LINK_LINE_STYLE</propertyID>
+                  <propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+                  <value>RECTILINEAR</value>
+                </mdElement>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOuCV3EfGgdPYlChKpxg">
+                  <propertyID>PEN_COLOR</propertyID>
+                  <propertyDescriptionID>PEN_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-16777216</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOuSV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <mdOwnedViews>
+                <mdElement elementClass="Role" xmi:id="_IHib5yTiEfGZu8X6Ayuzzw">
+                  <geometry>608, 276, 11, 14</geometry>
+                  <elementID xmi:idref="_IHfYkCTiEfGZu8X6Ayuzzw"/>
+                </mdElement>
+                <mdElement elementClass="Role" xmi:id="_IHib5iTiEfGZu8X6Ayuzzw">
+                  <geometry>639, 388, 11, 14</geometry>
+                  <elementID xmi:idref="_IHgmsSTiEfGZu8X6Ayuzzw"/>
+                </mdElement>
+              </mdOwnedViews>
+              <geometry>663, 438; 663, 266; 495, 266</geometry>
+              <elementID xmi:idref="_IHeKmCTiEfGZu8X6Ayuzzw"/>
+              <nameVisible>true</nameVisible>
+              <linkFirstEndID xmi:idref="_ac2bwCThEfGZu8X6Ayuzzw"/>
+              <linkSecondEndID xmi:idref="_G2BwsCTiEfGZu8X6Ayuzzw"/>
+              <associationFirstEndID xmi:idref="_IHib5yTiEfGZu8X6Ayuzzw"/>
+              <associationSecondEndID xmi:idref="_IHib5iTiEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="UseCase" xmi:id="_ZcFF0CTiEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOvCV3EfGgdPYlChKpxg">
+                  <propertyID>FILL_COLOR</propertyID>
+                  <propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-52</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOvSV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>1242, 537, 140, 79</geometry>
+              <elementID xmi:idref="_VI3kMCTiEfGZu8X6Ayuzzw"/>
+            </mdElement>
+            <mdElement elementClass="ContainmentLink" xmi:id="_ZcJ-YCTiEfGZu8X6Ayuzzw">
+              <properties>
+                <mdElement elementClass="ChoiceProperty" xmi:id="_eMEOvyV3EfGgdPYlChKpxg">
+                  <choice>RECTILINEAR^OBLIQUE^BEZIER</choice>
+                  <propertyID>LINK_LINE_STYLE</propertyID>
+                  <propertyDescriptionID>LINK_LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+                  <value>RECTILINEAR</value>
+                </mdElement>
+                <mdElement elementClass="ColorProperty" xmi:id="_eMEOwCV3EfGgdPYlChKpxg">
+                  <propertyID>PEN_COLOR</propertyID>
+                  <propertyDescriptionID>PEN_COLOR_DESCRIPTION</propertyDescriptionID>
+                  <value>-16777216</value>
+                </mdElement>
+                <mdElement elementClass="BooleanProperty" xmi:id="_eMEOwSV3EfGgdPYlChKpxg">
+                  <propertyID>WRAP_WORDS</propertyID>
+                  <propertyDescriptionID>WRAP_WORDS_DESCRIPTION</propertyDescriptionID>
+                  <value>true</value>
+                </mdElement>
+              </properties>
+              <geometry>1070, 146; 1312, 146; 1312, 576</geometry>
+              <linkFirstEndID xmi:idref="_iR9W0CThEfGZu8X6Ayuzzw"/>
+              <linkSecondEndID xmi:idref="_ZcFF0CTiEfGZu8X6Ayuzzw"/>
+            </mdElement>
+          </mdOwnedViews>
+          <type>SysML Block Definition Diagram</type>
+          <umlType>Class Diagram</umlType>
+        </mdElement>
+      </mdElement>
+    </mdOwnedDiagrams><mdElement elementClass="StyleManager" xmi:id="_eMEOwiV3EfGgdPYlChKpxg">
+      <mdElement elementClass="SimpleStyle" xmi:id="_eMEOwyV3EfGgdPYlChKpxg" name="Default"/>
+    </mdElement></xmi:Extension>
+  <uml:Model xmi:id="_8FyWsCTgEfGZu8X6Ayuzzw" visibility="public">
+    <packagedElement xmi:type="uml:Package" xmi:id="_G47JICThEfGZu8X6Ayuzzw" name="Standards" visibility="public"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Bz_2sCThEfGZu8X6Ayuzzw" name="Controls" visibility="public">
+      <packagedElement xmi:type="uml:Class" xmi:id="_KGq3gCThEfGZu8X6Ayuzzw" name="InternetEgressFiltering" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="__x0HECThEfGZu8X6Ayuzzw" visibility="public" type="_p9h7YCThEfGZu8X6Ayuzzw" aggregation="none" association="__xv1oCThEfGZu8X6Ayuzzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_PkOFUCThEfGZu8X6Ayuzzw" name="PhishingResistantMultiFactorAuthentication" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_IHgmsSTiEfGZu8X6Ayuzzw" visibility="public" type="_zHLngCThEfGZu8X6Ayuzzw" aggregation="none" association="_IHeKmCTiEfGZu8X6Ayuzzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_EWSX0CTiEfGZu8X6Ayuzzw" name="ApplicationControl" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_fdGpkCThEfGZu8X6Ayuzzw" name="AttackPaths" visibility="public">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_j2xYgCThEfGZu8X6Ayuzzw" name="PhishingEmailwithLink" visibility="public"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_nR9F8CThEfGZu8X6Ayuzzw" name="PhishingEmailwithAttachment" visibility="public"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_VI3kMCTiEfGZu8X6Ayuzzw" name="SupplyChainAttackwithCompromisedDependency" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_xAb9cCThEfGZu8X6Ayuzzw" name="Services" visibility="public">
+      <packagedElement xmi:type="uml:Class" xmi:id="_p9h7YCThEfGZu8X6Ayuzzw" name="SecureWebGateway" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="__xxDwCThEfGZu8X6Ayuzzw" visibility="public" type="_KGq3gCThEfGZu8X6Ayuzzw" aggregation="composite" association="__xv1oCThEfGZu8X6Ayuzzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sHAJUCThEfGZu8X6Ayuzzw" name="SecureEmailGateway" visibility="public"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_zHLngCThEfGZu8X6Ayuzzw" name="IdentityProvider" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_IHfYkCTiEfGZu8X6Ayuzzw" visibility="public" type="_PkOFUCThEfGZu8X6Ayuzzw" aggregation="composite" association="_IHeKmCTiEfGZu8X6Ayuzzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="__xv1oCThEfGZu8X6Ayuzzw" visibility="public" memberEnd="__xxDwCThEfGZu8X6Ayuzzw __x0HECThEfGZu8X6Ayuzzw"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IHeKmCTiEfGZu8X6Ayuzzw" visibility="public" memberEnd="_IHfYkCTiEfGZu8X6Ayuzzw _IHgmsSTiEfGZu8X6Ayuzzw"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8Fy9wCTgEfGZu8X6Ayuzzw" applyingPackage="_8FyWsCTgEfGZu8X6Ayuzzw">
+      <appliedProfile xmi:type="uml:Profile" href="http://www.omg.org/spec/SysML/20150709/SysML.xmi#_SysML__0"/>
+    </profileApplication>
+  </uml:Model>
+  <MD_Customization_for_SysML__additional_stereotypes:ReferenceProperty xmi:id="_eL4BJiV3EfGgdPYlChKpxg" base_Property="__x0HECThEfGZu8X6Ayuzzw"/>
+  <MD_Customization_for_SysML__additional_stereotypes:ReferenceProperty xmi:id="_eL4BJyV3EfGgdPYlChKpxg" base_Property="_IHgmsSTiEfGZu8X6Ayuzzw"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_eL4BKCV3EfGgdPYlChKpxg" base_Property="__xxDwCThEfGZu8X6Ayuzzw"/>
+  <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_eL4BKSV3EfGgdPYlChKpxg" base_Property="_IHfYkCTiEfGZu8X6Ayuzzw"/>
+  <sysml:Block xmi:id="_KG0BcCThEfGZu8X6Ayuzzw" base_Class="_KGq3gCThEfGZu8X6Ayuzzw"/>
+  <sysml:Block xmi:id="_PkPTcCThEfGZu8X6Ayuzzw" base_Class="_PkOFUCThEfGZu8X6Ayuzzw"/>
+  <sysml:Block xmi:id="_EWU0ECTiEfGZu8X6Ayuzzw" base_Class="_EWSX0CTiEfGZu8X6Ayuzzw"/>
+  <sysml:Block xmi:id="_p9jJgCThEfGZu8X6Ayuzzw" base_Class="_p9h7YCThEfGZu8X6Ayuzzw"/>
+  <sysml:Block xmi:id="_sHAwYCThEfGZu8X6Ayuzzw" base_Class="_sHAJUCThEfGZu8X6Ayuzzw"/>
+  <sysml:Block xmi:id="_zHM1oCThEfGZu8X6Ayuzzw" base_Class="_zHLngCThEfGZu8X6Ayuzzw"/>
+</xmi:XMI>
