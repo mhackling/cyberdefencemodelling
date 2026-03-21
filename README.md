@@ -10,7 +10,7 @@ Enables prioritisation of security controls for implementation based off materia
 <br>
 <b>Design Decisions</b><br>
 <br>
-DD1 - We are choosing to use SYSml for modelling the attack chains. SysML doesnt have many easily consumable end user tools but it does enable whole system modelling down to physical aspects like tamper proof seals <br>
+DD1 - We are choosing to use SYSml for modelling the attack chains and defensive controls. SysML doesnt have many easily consumable end user tools but it does enable whole system modelling down to physical aspects like tamper proof seals <br>
 DD2 - Key protective security controls identified from modelling will be mapped to the compliance requirements. But not the other way around. This is not a security compliance mapping model.<br>
 DD3 - The model will not go into application security at depth<br>
 DD4 - The model will enable interfacing with other SysML models of attack chains, attack trees, attack paths<br>
