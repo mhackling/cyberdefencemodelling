@@ -1,0 +1,4 @@
+A list of defensive security controls that are effective at proactively blocking common attack paths
+
+AllowlistedInternetEgressFilteringfromApplicationWorkloads
+PhishingResistantMultiFactorAuthentication
